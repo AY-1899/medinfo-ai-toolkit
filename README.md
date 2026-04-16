@@ -1,6 +1,6 @@
 # Medical Information & Pharmacovigilance Templates
 
-A collection of professional markdown templates for Medical Information (MI) operations and pharmacovigilance workflows, based on 7+ years of experience across EU pharmaceutical environments.
+A collection of professional markdown templates for Medical Information (MI) operations and pharmacovigilance workflows.
 
 These templates are designed to be:
 - **Regulatory-aware** — aligned with ICH, EU GVP, and ABPI/EFPIA frameworks
@@ -59,4 +59,4 @@ These templates are for **reference and educational purposes only**. They do not
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/ammar-jawad-b2a373114/) · ammar.jawad195@gmail.com
+[LinkedIn](https://www.linkedin.com/in/ammar-jawad-b2a373114/)

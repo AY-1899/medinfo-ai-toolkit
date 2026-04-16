@@ -9,13 +9,22 @@ These templates are designed to be:
 
 ---
 
-## Templates & Workflow Guides
+## Workflows
+
+Step-by-step process guides for MI operations.
 
 | File | Description |
 |---|---|
-| [`mi-workflow-guide.md`](./mi-workflow-guide.md) | End-to-end MI inquiry handling — triage, classification, response prep, QC, dispatch |
-| [`srd-template.md`](./srd-template.md) | Standard Response Document structure with document control, key messages, evidence summary, and approval workflow |
-| [`pv-icsr-checklist.md`](./pv-icsr-checklist.md) | ICSR processing checklist — validity, triage, data entry, seriousness, causality, narrative QC, reporting timelines |
+| [`workflows/mi-workflow-guide.md`](./workflows/mi-workflow-guide.md) | End-to-end MI inquiry handling — triage, classification, response prep, QC, dispatch |
+
+## Templates
+
+Document structures ready to fill in.
+
+| File | Description |
+|---|---|
+| [`templates/srd-template.md`](./templates/srd-template.md) | Standard Response Document structure with document control, key messages, evidence summary, and approval workflow |
+| [`templates/pv-icsr-checklist.md`](./templates/pv-icsr-checklist.md) | ICSR processing checklist — validity, triage, data entry, seriousness, causality, narrative QC, reporting timelines |
 
 ## AI Prompt Libraries
 
@@ -23,9 +32,19 @@ Modular prompts for AI-assisted MI and PV workflows. All prompts use `[VARIABLE]
 
 | File | Prompts | Use Case |
 |---|---|---|
-| [`prompt-library-hcp-2nd-line.md`](./prompt-library-hcp-2nd-line.md) | 7 prompts | Query intake, 2nd-line response drafting, literature summary, SRD gap check, cover letter, QC review, escalation handoff |
-| [`prompt-library-ae-triage.md`](./prompt-library-ae-triage.md) | 8 prompts | AE signal detection, minimum criteria check, data extraction, seriousness assessment, MedDRA coding, narrative drafting, follow-up letters, PV handoff |
-| [`prompt-library-srd-drafting.md`](./prompt-library-srd-drafting.md) | 8 prompts | SRD scoping, evidence synthesis, key messages, summary response, FAQ generation, SRD review, gap analysis, market localisation |
+| [`prompt-libraries/prompt-library-hcp-2nd-line.md`](./prompt-libraries/prompt-library-hcp-2nd-line.md) | 7 prompts | Query intake, 2nd-line response drafting, literature summary, SRD gap check, cover letter, QC review, escalation handoff |
+| [`prompt-libraries/prompt-library-ae-triage.md`](./prompt-libraries/prompt-library-ae-triage.md) | 8 prompts | AE signal detection, minimum criteria check, data extraction, seriousness assessment, MedDRA coding, narrative drafting, follow-up letters, PV handoff |
+| [`prompt-libraries/prompt-library-srd-drafting.md`](./prompt-libraries/prompt-library-srd-drafting.md) | 8 prompts | SRD scoping, evidence synthesis, key messages, summary response, FAQ generation, SRD review, gap analysis, market localisation |
+
+## Scripts
+
+Python utilities for MI workflow automation. See [`scripts/README.md`](./scripts/README.md) for setup and usage instructions.
+
+| File | Description |
+|---|---|
+| [`scripts/pubmed_search.py`](./scripts/pubmed_search.py) | Search PubMed by keyword and export results to CSV |
+| [`scripts/case_tracker.py`](./scripts/case_tracker.py) | Log, track, and report on MI inquiry cases via command line |
+| [`scripts/response_checker.py`](./scripts/response_checker.py) | Scan draft MI responses for compliance and quality issues |
 
 ---
 

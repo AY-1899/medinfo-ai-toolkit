@@ -46,17 +46,6 @@ Python utilities for MI workflow automation. See [`scripts/README.md`](./scripts
 | [`scripts/case_tracker.py`](./scripts/case_tracker.py) | Log, track, and report on MI inquiry cases via command line |
 | [`scripts/response_checker.py`](./scripts/response_checker.py) | Scan draft MI responses for compliance and quality issues |
 
----
-
-## Background
-
-These templates reflect real-world MI and PV workflows across Eli Lilly, Pfizer, AstraZeneca, and IQVIA, including:
-
-- Multi-market operations (UK, Ireland, Denmark, Sweden, Norway)
-- Salesforce Classic/Lightning and Omnichannel environments
-- Oncology-focused 2nd-line response management
-- ICSR processing at volume (100+ cases)
-- SRD authorship and cross-market localisation
 
 ---
 
